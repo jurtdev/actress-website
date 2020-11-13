@@ -1,0 +1,99 @@
+.navbar-toggler {
+  border: none;
+}
+
+.nav__styling {
+  position: fixed;
+  background-color: black !important;
+}
+
+.nav__styling a {
+  color: #9ed9ccff !important;
+}
+
+.menubar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+}
+
+.menubar.scrolled {
+  background-color: black !important;
+  transition: background-color 200ms linear;
+}
+
+.menubar__navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  padding: 10px 0;
+}
+.menubar__logo {
+  display: flex;
+  margin-left: 10px;
+}
+
+.logo__section .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.logo__section a {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3rem;
+  padding-left: 20px;
+}
+
+.menubar__logo a {
+  font-size: 1.3rem;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  color: #9ed9ccff;
+  padding-left: 20px;
+}
+
+.menubar__logo .avatar {
+  border-radius: 100%;
+  vertical-align: center;
+  width: 30px;
+  height: 30px;
+}
+
+.menu {
+  display: grid;
+  justify-items: end;
+  justify-content: end;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.nav__item {
+  color: #9ed9ccff;
+}
+
+.wrap-word {
+  width: 120px;
+}
+
+.menubar__navigation__items a:hover,
+.menubar__navigation__items a:active {
+  color: #9ed9ccff;
+}
+
+@media (max-width: 768px) {
+  .menubar__navigation__items {
+    display: none;
+  }
+  .menubar__logo {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-right: 20px;
+  }
+}
